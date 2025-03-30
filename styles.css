@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 10px;
+}
+
+#score {
+    text-align: center;
+    font-size: 50px;
+}
+
+#result {
+    margin-top: 10px;
+    flex-basis: 20px;
+}
+
+button {
+    padding: 5px 15px;
+}
